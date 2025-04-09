@@ -239,7 +239,7 @@ const gallery = {
   label: "Gallery",
   title: "My photo gallery",
   description: `A photo collection by ${person.name}`,
-  // Images from https://pexels.com
+  // These images are from Keren,so myself.
   images: [
     {
       src: "/images/gallery/img-01.jpg",
@@ -257,9 +257,9 @@ const gallery = {
       orientation: "vertical",
     },
     {
-      src: "/images/gallery/img-04.jpg",
+      src: "/images/gallery/img-04.JPG",
       alt: "image",
-      orientation: "horizontal",
+      orientation: "vertical",
     },
     {
       src: "/images/gallery/img-05.jpg",
@@ -269,7 +269,7 @@ const gallery = {
     {
       src: "/images/gallery/img-06.jpg",
       alt: "image",
-      orientation: "vertical",
+      orientation: "horizontal",
     },
     {
       src: "/images/gallery/img-07.jpg",
@@ -292,9 +292,9 @@ const gallery = {
       orientation: "horizontal",
     },
     {
-      src: "/images/gallery/img-11.jpg",
+      src: "/images/gallery/img-11.JPG",
       alt: "image",
-      orientation: "vertical",
+      orientation: "horizontal",
     },
     {
       src: "/images/gallery/img-12.jpg",
