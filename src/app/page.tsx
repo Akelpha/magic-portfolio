@@ -7,7 +7,7 @@ import { baseURL, routes } from "@/app/resources";
 import { home, about, person, newsletter } from "@/app/resources/content";
 import { Mailchimp } from "@/components";
 import { Posts } from "@/components/blog/Posts";
-// import Particlesjs from "@/components/particlesjs";
+import Particlesjs from "@/components/particles";
 
 export async function generateMetadata() {
   const title = home.title;
@@ -41,7 +41,7 @@ export async function generateMetadata() {
 export default function Home() {
   return (
     <>
-      {/* <Particlesjs /> */}
+      <Particlesjs />
       <Column maxWidth="m" gap="xl" horizontal="center">
         <script
           type="application/ld+json"

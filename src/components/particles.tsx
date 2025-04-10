@@ -1,7 +1,9 @@
+"use client"
+
 import { useEffect, useState } from "react";
 import Particles, { initParticlesEngine } from "@tsparticles/react";
 import { loadSlim } from "@tsparticles/slim";
-import particlesOptions from "./particlesOptions";
+import particlesOptions from "@/particlesOptions";
 
 export default function Particlesjs() {
     const [init, setInit] = useState(false);
@@ -17,6 +19,6 @@ export default function Particlesjs() {
     };
 
     return init ? (
-        <Particles options={particlesOptions} loaded={particlesLoaded} />
+        <Particles options={particlesOptions} />
     ) : null;
 }
