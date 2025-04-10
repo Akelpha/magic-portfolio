@@ -1,0 +1,33 @@
+[
+    {
+        "href": "/case-study/project-1",
+        "title": "CheckRoom Project",
+        "content": "Lire l’étude de cas",
+        "description": "This a project about ",
+        "avatars": [
+            {
+                "src": "/images/avatar.png"
+            }
+        ],
+        "link": "https://github.com/project-1",
+        "images": [
+            "/images/projects/cover-1.png",
+            "/images/projects/cover-2.png"
+        ]
+    },
+    {
+        "href": "/case-study/project-2",
+        "title": "Projet 2",
+        "content": "Lire l’étude de cas",
+        "description": "Autre projet cool...",
+        "avatars": [
+            {
+                "src": "/images/avatar2.png"
+            }
+        ],
+        "link": "https://github.com/project-2",
+        "images": [
+            "/assets/projects/project-2/1.png"
+        ]
+    }
+]

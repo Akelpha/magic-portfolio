@@ -53,8 +53,8 @@ const home = {
   headline: <>Web Developer </>,
   subline: (
     <>
-      I'm Keren, a freelance Web Developer passionate about creating functional
-      and user-friendly web experiences.
+      I'm Keren, a junior Web Developer passionate about creating functional and
+      user-friendly web experiences.
     </>
   ),
 };
