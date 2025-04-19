@@ -1,4 +1,5 @@
 import { InlineCode } from "@/once-ui/components";
+import { link } from "fs";
 
 const person = {
   firstName: "Keren",
@@ -50,7 +51,7 @@ const home = {
   label: "Home",
   title: `${person.name}'s Portfolio`,
   description: `Portfolio website showcasing my work as a ${person.role}`,
-  headline: <>Web Developer </>,
+  headline: <>Web Developer</>,
   subline: (
     <>
       I'm Keren, a junior Web Developer passionate about creating functional and
@@ -149,12 +150,14 @@ const about = {
       {
         name: "Kadea Academy",
         description: <>Traning in web developement</>,
+        link: "https://kadea.academy",
       },
       {
         name: "CALI",
         description: (
           <>Studied English for improving my communication skills.</>
         ),
+        link: "https://www.calicongo.org/",
       },
     ],
   },
@@ -167,53 +170,35 @@ const about = {
         description: (
           <>Able to prototype in Figma and create interactive prototypes.</>
         ),
+        link: "https://www.figma.com/design/99yEd26YE4mcPTjkrQLEP5/CheckRoom?m=auto&t=L9BHCcb7Wp56y5SV-6",
         // optional: leave the array empty if you don't want to display images
-        images: [
-          {
-            src: "/images/projects/project-01/cover-1.png",
-            alt: "Project image",
-            width: 16,
-            height: 9,
-          },
-          {
-            src: "/images/projects/project-01/cover-2.png",
-            alt: "Project image",
-            width: 16,
-            height: 9,
-          },
-        ],
+        images: [],
       },
       {
         title: "Tailwind CSS",
         description: (
           <>Able to create responsive and modern UI with Tailwind CSS.</>
         ),
+        link: "https://product-preview-card-component-olive.vercel.app/",
 
         // optional: leave the array empty if you don't want to display images
-        images: [
-          {
-            src: "/images/projects/project-01/cover-04.jpg",
-            alt: "Project image",
-            width: 16,
-            height: 9,
-          },
-        ],
+        images: [],
       },
       {
         title: "Adonis JS",
         description: (
           <>Able to corporate back-end in front-end with Adonis JS.</>
         ),
-
+        link: "https://shurl-s2nv.onrender.com/",
         // optional: leave the array empty if you don't want to display images
-        images: [
-          {
-            src: "/images/projects/project-01/cover-04.jpg",
-            alt: "Project image",
-            width: 16,
-            height: 9,
-          },
-        ],
+        images: [],
+      },
+      {
+        title: "React",
+        description: <>Able to use component, state and props with React.</>,
+        link: "https://tic-tac-toe-jade-nine.vercel.app/",
+        // optional: leave the array empty if you don't want to display images
+        images: [],
       },
     ],
   },
