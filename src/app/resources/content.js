@@ -1,5 +1,4 @@
 import { InlineCode } from "@/once-ui/components";
-import { link } from "fs";
 
 const person = {
   firstName: "Keren",
